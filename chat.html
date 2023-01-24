@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "chatStyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Forum messages</title>
+</head>
+<body>
+    <div class="vertical">
+        <div class="messages">
+            <div class="mes">
+                <div class="mesTitle">
+                    <div class="name">Name</div>
+                    <div class="date">16.07.2022, 12:42:36</div>
+                </div>
+                <div class="mesText">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eaque aperiam, odio ratione similique eveniet cum fugit cumque! 
+                    Recusandae earum distinctio modi adipisci, deserunt quia fuga officiis? 
+                    Soluta sed quod blanditiis?</div>
+            </div>
+            <div class="mes">
+                <div class="mesTitle">
+                    <div class="name">Name</div>
+                    <div class="date">16.07.2022, 12:58:09</div>
+                </div>
+                <div class="mesText">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eaque aperiam, odio ratione similique eveniet cum fugit cumque! 
+                    Recusandae earum distinctio modi adipisci, deserunt quia fuga officiis? 
+                    Soluta sed quod blanditiis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Sunt totam id beatae ab dignissimos odit suscipit, voluptates consequatur optio natus 
+                    quasi nostrum fugiat commodi ea, reprehenderit veniam similique vero excepturi?</div>
+            </div>
+        </div>
+        <div class="newMessage">
+            <p>Add new message:</p>
+            <div class="formLine">
+                <div class="txt">Your name:</div>
+                <div class="form1"><input type="text" id ="inp" name="inputName" placeholder="your name"></div>
+            </div>
+            <div class="formLine">
+                <div class="txt">Your message:</div>
+                <textarea name="inputMessage" id="area" cols="80" rows="5" placeholder="Комментарий"></textarea>
+            </div>
+            <div class="but">
+                <button onclick="AddMessage()">Send</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
